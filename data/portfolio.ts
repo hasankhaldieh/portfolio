@@ -66,7 +66,7 @@ export const skillGroups = [
 
 export const experiences = [
   {
-    role: "Software Developer Trainee",
+    role: "Software Engineer",
     company: "OnRamp Academy & Forward Mena",
     date: "May 2026 - Present",
     current: true,

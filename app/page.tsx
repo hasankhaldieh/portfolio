@@ -55,12 +55,13 @@ export default function Home() {
                 Hasan Khaldieh
               </h1>
               <p className="mt-5 font-display text-2xl font-medium tracking-tight text-cyan-400 sm:text-3xl">
-                Full-Stack Developer
+                Software Engineer
               </p>
               <p className="mt-7 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-                Computer Science graduate and Master&apos;s student with hands-on
-                experience in React, TypeScript, Node.js, REST APIs, SQL/NoSQL
-                databases, and responsive web development.
+                Computer Science graduate and Master&apos;s student with
+                hands-on experience in React, Next.js, Nest.js, Express.js,
+                Node.js, REST APIs, SQL/NoSQL databases, and responsive web
+                development.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -111,23 +112,28 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="border-y border-white/[0.06] bg-white/[0.015]">
+        <section
+          id="about"
+          className="border-y border-white/[0.06] bg-white/[0.015]"
+        >
           <div className="section-shell grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:items-start">
             <SectionHeading eyebrow="01 / About" title="A little about me" />
             <div>
               <p className="text-lg leading-8 text-slate-300 sm:text-xl sm:leading-9">
                 I&apos;m a full-stack developer focused on building thoughtful,
                 reliable web applications with{" "}
-                <span className="text-white">React, TypeScript, and Node.js</span>.
-                I enjoy turning requirements into responsive interfaces, clean
+                <span className="text-white">
+                  React, TypeScript, and Node.js
+                </span>
+                . I enjoy turning requirements into responsive interfaces, clean
                 APIs, and practical database solutions.
               </p>
               <p className="mt-6 text-base leading-8 text-slate-400">
-                My work spans API integration, SQL and NoSQL databases, debugging,
-                and collaborative Agile workflows. I&apos;m currently sharpening
-                those skills through software development training at OnRamp
-                Academy &amp; Forward Mena, where I&apos;m building production-minded
-                projects and growing as an engineer.
+                My work spans API integration, SQL and NoSQL databases,
+                debugging, and collaborative Agile workflows. I&apos;m currently
+                sharpening those skills through software development training at
+                OnRamp Academy &amp; Forward Mena, where I&apos;m building
+                production-minded projects and growing as an engineer.
               </p>
               <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
                 {[
@@ -139,7 +145,9 @@ export default function Home() {
                     <p className="font-display text-2xl font-semibold text-white">
                       {value}
                     </p>
-                    <p className="mt-1 text-xs leading-5 text-slate-500">{label}</p>
+                    <p className="mt-1 text-xs leading-5 text-slate-500">
+                      {label}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -184,7 +192,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="experience" className="border-y border-white/[0.06] bg-white/[0.015]">
+        <section
+          id="experience"
+          className="border-y border-white/[0.06] bg-white/[0.015]"
+        >
           <div className="section-shell">
             <SectionHeading
               eyebrow="03 / Experience"
@@ -269,11 +280,14 @@ export default function Home() {
                 <h3 className="mt-5 font-display text-2xl font-semibold tracking-tight text-white sm:text-3xl">
                   Loyalty Card Management System
                 </h3>
-                <p className="mt-2 font-mono text-sm text-cyan-400">MERN Stack</p>
+                <p className="mt-2 font-mono text-sm text-cyan-400">
+                  MERN Stack
+                </p>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-slate-400">
-                  Full-stack loyalty card system using MongoDB, Express.js, React,
-                  and Node.js for managing customers, loyalty cards, purchases,
-                  earned points, redeemed points, and complete transaction history.
+                  Full-stack loyalty card system using MongoDB, Express.js,
+                  React, and Node.js for managing customers, loyalty cards,
+                  purchases, earned points, redeemed points, and complete
+                  transaction history.
                 </p>
                 <div className="mt-7 flex flex-wrap gap-2">
                   {[
@@ -303,7 +317,10 @@ export default function Home() {
           </article>
         </section>
 
-        <section id="education" className="border-y border-white/[0.06] bg-white/[0.015]">
+        <section
+          id="education"
+          className="border-y border-white/[0.06] bg-white/[0.015]"
+        >
           <div className="section-shell">
             <SectionHeading
               eyebrow="05 / Education"
@@ -343,9 +360,9 @@ export default function Home() {
                   Let&apos;s build something useful.
                 </h2>
                 <p className="mt-5 max-w-xl text-base leading-8 text-slate-400">
-                  I&apos;m open to software development opportunities and conversations
-                  about full-stack projects. Send me a message and I&apos;ll get back
-                  to you.
+                  I&apos;m open to software development opportunities and
+                  conversations about full-stack projects. Send me a message and
+                  I&apos;ll get back to you.
                 </p>
                 <a
                   href={socialLinks.email}
