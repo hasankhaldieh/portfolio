@@ -17,14 +17,14 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://hasan-khaldieh.vercel.app"),
   title: {
-    default: "Hasan Khaldieh | Full-Stack Developer",
+    default: "Hasan Khaldieh | Software Engineer",
     template: "%s | Hasan Khaldieh",
   },
   description:
-    "Portfolio of Hasan Khaldieh, a full-stack developer focused on React, TypeScript, Node.js, APIs, and modern web applications.",
+    "Portfolio of Hasan Khaldieh, a full-stack developer focused on React, Next.js, Nest.js, Express.js, Node.js, APIs, and modern web applications.",
   keywords: [
     "Hasan Khaldieh",
-    "Full-Stack Developer",
+    "Software Engineer",
     "React Developer",
     "TypeScript",
     "Node.js",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   creator: "Hasan Khaldieh",
   openGraph: {
     type: "website",
-    title: "Hasan Khaldieh | Full-Stack Developer",
+    title: "Hasan Khaldieh | Software Engineer",
     description:
       "Full-stack developer building reliable, responsive, and user-focused web applications.",
     url: "/",
