@@ -58,10 +58,9 @@ export default function Home() {
                 Software Engineer
               </p>
               <p className="mt-7 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-                Computer Science graduate and Master&apos;s student with
-                hands-on experience in React, Next.js, Nest.js, Express.js,
-                Node.js, REST APIs, SQL/NoSQL databases, and responsive web
-                development.
+                Computer Science Master&apos;s graduate with hands-on experience
+                in React, Next.js, Nest.js, Express.js, Node.js, REST APIs,
+                SQL/NoSQL databases, and responsive web development.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -120,13 +119,10 @@ export default function Home() {
             <SectionHeading eyebrow="01 / About" title="A little about me" />
             <div>
               <p className="text-lg leading-8 text-slate-300 sm:text-xl sm:leading-9">
-                I&apos;m a full-stack developer focused on building thoughtful,
-                reliable web applications with{" "}
-                <span className="text-white">
-                  React, TypeScript, and Node.js
-                </span>
-                . I enjoy turning requirements into responsive interfaces, clean
-                APIs, and practical database solutions.
+                I&apos;m a software engineer focused on building thoughtful,
+                reliable web applications. I enjoy turning requirements into
+                responsive interfaces, clean APIs, and practical database
+                solutions.
               </p>
               <p className="mt-6 text-base leading-8 text-slate-400">
                 My work spans API integration, SQL and NoSQL databases,
